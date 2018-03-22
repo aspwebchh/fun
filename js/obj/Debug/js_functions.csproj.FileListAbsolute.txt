@@ -1,0 +1,12 @@
+C:\dev\functions\js\js_functions\bin\js_functions.dll.config
+C:\dev\functions\js\js_functions\bin\js_functions.dll
+C:\dev\functions\js\js_functions\bin\js_functions.pdb
+C:\dev\functions\js\js_functions\obj\Debug\js_functions.csprojResolveAssemblyReference.cache
+C:\dev\functions\js\js_functions\obj\Debug\js_functions.dll
+C:\dev\functions\js\js_functions\obj\Debug\js_functions.pdb
+C:\dev\functions\js\bin\js_functions.dll.config
+C:\dev\functions\js\bin\js_functions.dll
+C:\dev\functions\js\bin\js_functions.pdb
+C:\dev\functions\js\obj\Debug\js_functions.csprojResolveAssemblyReference.cache
+C:\dev\functions\js\obj\Debug\js_functions.dll
+C:\dev\functions\js\obj\Debug\js_functions.pdb
