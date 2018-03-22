@@ -1,6 +1,4 @@
 *.js     text
-*.css     text
-*.html     text
 *.go     text
 *.cs     text
 *.java     text
