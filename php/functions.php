@@ -176,3 +176,15 @@ function jsonFormat($data, $indent = null){
 
 	return $ret;
 }
+
+//将数字字符串转换城数字
+function convert2RealType( $data ) {
+    foreach($data as $key => $val) {
+        if(gettype($val) == "array") {
+            $data[$key] = convert2RealType($val);
+        } else if( is_numeric($val) ) {
+            $data[$key] = doubleval($val);
+        }
+    }
+    return $data;
+}
