@@ -50,6 +50,7 @@
     <Compile Include="DBUtility\DESEncrypt.cs" />
     <Compile Include="DBUtility\ProPageSQL.cs" />
     <Compile Include="DBUtility\PubConstant.cs" />
+    <Compile Include="ExcelReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

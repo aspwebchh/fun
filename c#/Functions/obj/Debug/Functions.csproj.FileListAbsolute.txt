@@ -3,3 +3,4 @@ C:\dev\functions\c#\Functions\bin\Debug\Functions.exe
 C:\dev\functions\c#\Functions\bin\Debug\Functions.pdb
 C:\dev\functions\c#\Functions\obj\Debug\Functions.exe
 C:\dev\functions\c#\Functions\obj\Debug\Functions.pdb
+C:\dev\functions\c#\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
