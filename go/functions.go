@@ -10,6 +10,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"regexp"
+	"time"
 )
 
 func GetMd5String(s string) string {
@@ -158,4 +159,14 @@ func HttpHead(url string) (resultErr error) {
 		return fmt.Errorf("请求出错， 状态码：" + strconv.Itoa(response.StatusCode))
 	}
 	return nil
+}
+
+func String2DateTime( dateTimeString string ) time.Time  {
+	var loc, _ = time.LoadLocation("Local")
+	var time ,_ = time.ParseInLocation("2006-01-02 15:04:05", dateTimeString,loc)
+	return time
+}
+
+func DateTime2String( dateTime time.Time) string  {
+	return dateTime.Format("2006年01月02日 15:04")
 }
